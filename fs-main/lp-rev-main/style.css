@@ -156,13 +156,11 @@ button {
   bottom: 32rem;
 }
 
-.owl-dot{
+.owl-dot {
   width: 20px;
   justify-content: center !important;
   align-items: center !important;
 }
-
-
 
 .card-container {
   display: flex;
@@ -304,10 +302,6 @@ button {
   transform: translate(-50%, -50%);
 }
 
-
-
-
-
 /*---Media Queries --*/
 /* For Desktop View */
 @media screen and (min-width: 1024px) {
@@ -438,6 +432,11 @@ button {
 
 /* For Tablet View */
 @media screen and (min-device-width: 600px) and (max-device-width: 1024px) {
+  .text-personalizados-sec {
+    bottom: 43.6rem !important;
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+  }
   .carousel-inner {
     height: 390px;
   }
@@ -478,9 +477,37 @@ button {
     padding-bottom: 10px;
   }
 }
+.text-personalizados-sec {
+  bottom: 0 !important;
+}
+
+.yt-banner {
+  height: 50%;
+  width: 90%;
+}
 
 /* For Mobile Portrait View */
 @media screen and (max-device-width: 767px) and (orientation: portrait) {
+  .politica-text {
+    padding-left: 4% !important;
+    padding-bottom: 15% !important;
+  }
+
+  .b2b-sec {
+    padding-top: 10rem;
+  }
+
+  .yt-banner {
+    height: 30% !important;
+    margin-bottom: 50% !important;
+    width: 100% !important;
+  }
+  .text-personalizados-sec {
+    bottom: 22.6rem !important;
+  }
+  .text-personalizados {
+    font-size: 0.8rem !important;
+  }
   .container-nm {
     max-width: 600rem;
   }
